@@ -10,6 +10,7 @@ const Board = () => {
     oWinPercent : 0, 
     quitPercent : 0, 
     drawPercent : 0, 
+    timeoutPercent : 0, 
   });
   const [timeDuration, setTimeDuration] = useState(0);
   const [timeInterval, setTimeInterval] = useState(null);
